@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "15367572292",
+    "project_id": "thriftysked-rework",
+    "storage_bucket": "thriftysked-rework.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15367572292:android:2b0b82f6f811c310d96511",
+        "android_client_info": {
+          "package_name": "com.example.thriftyskedrework"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTgrZhe3Q3ITWxdjp5tCKOEhgRoNLinPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
