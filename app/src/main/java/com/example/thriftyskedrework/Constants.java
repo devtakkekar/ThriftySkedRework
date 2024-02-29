@@ -14,6 +14,9 @@ public class Constants {
 
     public static int SELECTED_TAB = 0;
 
+    public static int SELECTED_TAB_ANALYTICS = 0;
+    public static String SELECTED_ANALYTICS_TYPE = Constants.INCOME;
+
     public static void setCategories(){
         categories = new ArrayList<>();
         categories.add(new Category("Salary",R.drawable.ic_salary, R.color.category1));

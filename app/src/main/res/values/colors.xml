@@ -10,6 +10,11 @@
     <color name="redColor">#F44336</color>
     <color name="grey">#474747</color>
 
+    <color name="lightpurple">#A269E3</color>
+    <color name="darkpurple">#6C20C3</color>
+    <color name="darkestpurple">#280055</color>
+
+
 
     <color name="category1">#4CAF50</color>
     <color name="category2">#F44336</color>

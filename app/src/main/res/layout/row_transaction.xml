@@ -3,7 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="@drawable/card3"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:paddingBottom="7dp">
 
     <ImageView
         android:id="@+id/categoryIcon"
@@ -34,7 +40,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/monsterrat"
             android:text="Business"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textStyle="bold" />
 
         <LinearLayout
@@ -65,7 +71,7 @@
                 android:layout_weight="1"
                 android:fontFamily="@font/monsterrat"
                 android:text=" 24 Feb,2024"
-                android:textColor="#979797"
+                android:textColor="#CBFFFFFF"
                 android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>

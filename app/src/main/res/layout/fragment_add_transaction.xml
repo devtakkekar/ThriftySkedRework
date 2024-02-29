@@ -34,6 +34,7 @@
                     android:gravity="center"
                     android:padding="15dp"
                     android:text="Income"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
 
                 <TextView
@@ -47,6 +48,7 @@
                     android:gravity="center"
                     android:padding="15dp"
                     android:text="Expense"
+                    android:textColor="@color/white"
                     android:textStyle="bold" />
             </LinearLayout>
 
