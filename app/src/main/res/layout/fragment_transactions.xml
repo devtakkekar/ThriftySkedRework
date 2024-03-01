@@ -36,6 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:fontFamily="@font/monsterrat"
             android:gravity="center"
             android:text="Feb 27,2024"
             android:textColor="@color/white"
@@ -54,15 +55,14 @@
         android:id="@+id/tabLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/card3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        android:background="@drawable/card3"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="5dp"
-        android:layout_marginTop="5dp"
-        app:tabIndicatorColor="@color/white"
+        app:tabIndicatorColor="@color/lightpurple"
         app:tabTextColor="@color/white">
 
         <com.google.android.material.tabs.TabItem
@@ -104,9 +104,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
+                android:fontFamily="@font/monsterrat"
                 android:gravity="center"
-                android:textColor="@color/white"
-                android:text="Income" />
+                android:text="Income"
+                android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/incomeLbl"
@@ -132,9 +133,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:textColor="@color/white"
+                android:fontFamily="@font/monsterrat"
                 android:gravity="center"
-                android:text="Expense" />
+                android:text="Expense"
+                android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/expenseLbl"
@@ -160,9 +162,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:textColor="@color/white"
+                android:fontFamily="@font/monsterrat"
                 android:gravity="center"
-                android:text="Total" />
+                android:text="Total"
+                android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/totalLbl"
@@ -179,11 +182,11 @@
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:clickable="true"
         android:src="@drawable/ic_plus"
-        app:backgroundTint="@color/grey"
+        app:backgroundTint="@color/darkpurple"
         app:layout_constraintBottom_toBottomOf="@+id/transactionsList"
         app:layout_constraintEnd_toEndOf="parent"
         app:tint="@color/white" />
@@ -194,8 +197,10 @@
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.0"
         tools:listitem="@layout/row_transaction" />
 
     <ImageView

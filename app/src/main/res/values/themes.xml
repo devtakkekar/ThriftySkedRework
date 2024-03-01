@@ -7,6 +7,6 @@
 
     <style name="Theme.ThriftySkedRework" parent="Base.Theme.ThriftySkedRework" />
     <style name="App.CustomIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
-        <item name="android:color">@color/grey</item>
+        <item name="android:color">@color/darkestpurple</item>
     </style>
 </resources>
