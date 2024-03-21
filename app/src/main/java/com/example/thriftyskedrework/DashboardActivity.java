@@ -47,5 +47,14 @@ public class DashboardActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        binding.btnSchedule.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(DashboardActivity.this, ScheduleActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }

@@ -10,7 +10,6 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.example.thriftyskedrework.databinding.ActivityForgotPasswordBinding;
-import com.example.thriftyskedrework.databinding.ActivitySignUpBinding;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
