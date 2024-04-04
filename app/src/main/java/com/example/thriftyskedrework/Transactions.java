@@ -46,7 +46,6 @@ public class Transactions extends AppCompatActivity {
 
         viewModel=new ViewModelProvider(this).get(MainViewModel.class);
 
-
         binding.financeBackBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
